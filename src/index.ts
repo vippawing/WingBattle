@@ -27,7 +27,6 @@ window.addEventListener('resize', () => {
         Games.renderer.resize(Canvas.width, Canvas.height)
         Games.stage.width = Canvas.width
         Games.stage.height = Canvas.height
-        console.log(Canvas.width, Canvas.height)
     }
 })
 
